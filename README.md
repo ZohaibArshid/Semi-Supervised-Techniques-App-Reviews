@@ -4,17 +4,28 @@ Libraries needed:
 '''
 from numpy import argmax
 import pandas as pd
+
 import numpy as np
+
 from sklearn.model_selection import train_test_split
+
 from sklearn import svm
-from sklearn.feature_extraction.text import CountVectorizer
+
+
 from sklearn.feature_extraction.text import TfidfVectorizer
+
 from sklearn.metrics import classification_report
+
 import nltk
+
 from nltk import word_tokenize
+
 nltk.download('wordnet')
+
 from nltk.stem import WordNetLemmatizer
+
 import heapq
+
 from scipy.stats import entropy
 '''
 
