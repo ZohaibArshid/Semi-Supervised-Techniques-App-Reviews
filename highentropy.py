@@ -21,7 +21,7 @@ import heapq
 from scipy.stats import entropy
 
 
-df= pd.read_csv('itor27(highentropy).csv', encoding='Latin1')
+df= pd.read_csv('itor30(highentropy).csv', encoding='Latin1')
 #print(df)
 
 Etype=[]
@@ -56,7 +56,7 @@ y_train = pd.Series(senti) # convert list to Pandas series
 #print(str(Etype))
 
 
-csvfile = pd.read_csv('sample26.csv', encoding= 'Latin1')
+csvfile = pd.read_csv('sample28.csv', encoding= 'Latin1')
 #print(len(csvfile))
 smple = csvfile['Text']
 #smple= df.sample(200)
@@ -117,7 +117,7 @@ pro_tuple.sort(reverse = True)
 my_list = [(a,d) for (a,b) in pro_tuple for (c,d) in sent_tuple  if (b == c)]
 print(len(my_list))
 
-k = 40
+k = 100
 res = my_list[:k]
 print(res)
 
