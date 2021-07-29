@@ -1,4 +1,4 @@
-# semi-supervised-techniques
+#  semi-supervised-techniques (Active Learning and Self-Training)
 
 Libraries needed:
 '''
